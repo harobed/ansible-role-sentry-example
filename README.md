@@ -33,8 +33,8 @@ $ pip install -r requirements.txt
 
 ```sh
 $ ansible-galaxy install -r roles/requirements.yml
-...
 - harobed.sentry (master) was installed successfully
+- harobed.nginx-proxy (master) was installed successfully
 ```
 
 ## Start Vagrant host

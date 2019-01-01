@@ -1,3 +1,6 @@
 - src: https://github.com/harobed/ansible-role-sentry
   version: master
   name: harobed.sentry
+- src: https://github.com/harobed/ansible-role-nginx-proxy
+  version: master
+  name: harobed.nginx-proxy

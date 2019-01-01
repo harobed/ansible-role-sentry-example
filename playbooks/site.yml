@@ -19,6 +19,6 @@
   hosts:
     - nginx-proxy
   roles:
-    - nginx-proxy
+    - harobed.nginx-proxy
 
 - import_playbook: sentry.yml
