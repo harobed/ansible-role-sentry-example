@@ -31,6 +31,11 @@ $ pip install -r requirements.txt
 
 ## Install Ansible Galaxy Roles
 
+Use [Ansible-Galaxy](https://github.com/harobed/ansible-role-sentry) to install this roles:
+
+- [harobed.sentry](https://github.com/harobed/ansible-role-sentry)
+- [harobed.nginx-proxy](https://github.com/harobed/ansible-role-nginx-proxy)
+
 ```sh
 $ ansible-galaxy install -r roles/requirements.yml
 - harobed.sentry (master) was installed successfully
