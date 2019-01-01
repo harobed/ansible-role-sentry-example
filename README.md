@@ -59,6 +59,13 @@ myserver | SUCCESS => {
 $ ansible-playbook playbooks/site.yml
 ```
 
+Go to http://sentry.example.com
+
+Default login are:
+
+- username: admin@example.com
+- password: password
+
 
 ## Uninstall Sentry
 
