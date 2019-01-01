@@ -1,0 +1,3 @@
+- src: https://github.com/harobed/ansible-role-sentry
+  version: master
+  name: harobed.sentry

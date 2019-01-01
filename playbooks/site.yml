@@ -1,0 +1,24 @@
+---
+- name: Ubuntu Base
+  hosts:
+    - ubuntu
+  roles:
+    - ubuntu-base
+  tags:
+    - ubuntu-base
+
+- name: Ubuntu Docker
+  hosts:
+    - docker
+  roles:
+    - ubuntu-docker
+  tags:
+    - ubuntu-docker
+
+- name: Install nginx-proxy
+  hosts:
+    - nginx-proxy
+  roles:
+    - nginx-proxy
+
+- import_playbook: sentry.yml

@@ -1,0 +1,8 @@
+---
+- name: Install or Upgrade Sentry
+  hosts:
+    - sentry
+  roles:
+    - harobed.sentry
+  tags:
+    - sentry

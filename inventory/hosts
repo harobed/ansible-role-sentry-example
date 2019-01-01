@@ -1,0 +1,16 @@
+[all:vars]
+ansible_user=root
+ansible_become=True
+ansible_python_interpreter=/usr/bin/python3
+
+[ubuntu]
+myserver
+
+[docker]
+myserver
+
+[nginx-proxy]
+myserver
+
+[sentry]
+myserver
