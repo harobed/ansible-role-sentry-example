@@ -1,6 +1,8 @@
 # Ansible Role Sentry Example
 
-This repository contains a [Ansible Role Sentry](https://github.com/harobed/ansible-role-sentry) demo.
+This repository is a [Ansible Role Sentry](https://github.com/harobed/ansible-role-sentry) usage demonstration.
+
+Use this repository to install Sentry in Ubuntu VM managed by [Vagrant](https://www.vagrantup.com/).
 
 ## Prerequisite
 
