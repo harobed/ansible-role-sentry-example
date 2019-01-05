@@ -71,6 +71,10 @@ Default login are:
 - username: admin@example.com
 - password: password
 
+## Configure dkim
+
+Use `fetch/dkim.public` content to configure your DNS, more information see [docker-versatile-postfix DKIM section](https://github.com/MarvAmBass/docker-versatile-postfix/#dkim).
+
 
 ## Uninstall Sentry
 

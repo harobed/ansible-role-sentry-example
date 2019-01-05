@@ -1,3 +1,4 @@
+fetch/
 pyenv/
-roles/harobed.sentry/
+roles/harobed.sentry
 roles/harobed.nginx-proxy/
