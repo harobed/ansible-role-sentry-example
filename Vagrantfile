@@ -46,7 +46,7 @@ Vagrant.configure("2") do |config|
 
     server.hostmanager.aliases = ["sentry.example.com"]
     server.vm.provider :virtualbox do |vb|
-      vb.memory = '2024'
+      vb.memory = '8096'
       vb.cpus = '2'
     end
   end
