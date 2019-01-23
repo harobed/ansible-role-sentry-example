@@ -5,4 +5,4 @@ sentry_url_prefix: "http://{{ sentry_virtual_host }}"
 # sentry_letsencrypt_host: sentry.example.com
 # sentry_letsencrypt_email: contact@example.com
 
-sentry_posfix_domain: sentry.example.com
+sentry_postfix_domain: sentry.example.com
